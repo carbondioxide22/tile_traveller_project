@@ -17,7 +17,3 @@ class Traveller(object):
 
     def get_tile(self):
         return self.__position
-    
-john = Traveller((1, 1, 3))
-
-print(john.get_tile())
